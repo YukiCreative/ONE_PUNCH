@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Script">
+      <UniqueIdentifier>{200f3b6b-539a-42b3-a292-e3d45c59323e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Geometry">
+      <UniqueIdentifier>{c46cb773-23f5-4bc4-a053-e5e339df67df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\General">
+      <UniqueIdentifier>{a8bc29ef-1f3a-4b07-a911-784837fad930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Scene">
+      <UniqueIdentifier>{a781389c-74ca-478d-9bf5-c8992b283cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Text">
+      <UniqueIdentifier>{45feb703-d85f-4f11-ac41-be62beed1638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Actor">
+      <UniqueIdentifier>{ef4dd7d3-2aa9-4989-89d9-ccd6f935cbb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Shape">
+      <UniqueIdentifier>{eefacd53-8b8c-4208-8e1d-a3cfb7d86c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Utility">
+      <UniqueIdentifier>{22256230-1403-4b05-b4e7-bb181e9e9ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Model">
+      <UniqueIdentifier>{9675afd6-cd4b-4e8b-bee3-cb1e0578365b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Camera">
+      <UniqueIdentifier>{9a66d561-1673-462d-aabb-95388faeef7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI">
+      <UniqueIdentifier>{e2082010-e7e2-4772-87a0-c8d2d0eaa3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Main">
+      <UniqueIdentifier>{3ec0621f-20b6-4cf3-b79c-3779c2db810e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Actor\Enemy">
+      <UniqueIdentifier>{b18f78a8-bc91-48e6-96c8-27eeb9e8ba77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Physics">
+      <UniqueIdentifier>{b3f9e524-8c8a-49f3-bd19-20a652ace561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Physics\Collider">
+      <UniqueIdentifier>{d3fb93af-3707-4702-9f51-77e4f39ce7f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Actor\Stage">
+      <UniqueIdentifier>{64816088-6732-45bc-8f69-f2273a3f4356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Actor\Player">
+      <UniqueIdentifier>{964a9325-5914-4ba3-8f9c-01721d3ae9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Effect">
+      <UniqueIdentifier>{78db2cfe-aec1-4f8e-83ee-de6dbe60edbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Music,Sound">
+      <UniqueIdentifier>{862e3d6b-fa8e-41ba-83f1-d04971c090c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Score">
+      <UniqueIdentifier>{d72b55c6-0b0a-4dea-8e20-c5cad67ebb2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Script\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Script\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Script\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneController.cpp">
+      <Filter>Script\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FontLoader.cpp">
+      <Filter>Script\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Script\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTest.cpp">
+      <Filter>Script\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Script\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereActor.cpp">
+      <Filter>Script\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Script\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Script\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Script\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Script\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider3D.cpp">
+      <Filter>Script\Physics\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorController.cpp">
+      <Filter>Script\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>Script\Physics\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Script\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationModel.cpp">
+      <Filter>Script\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Script\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Bee.cpp">
+      <Filter>Script\Actor\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>Script\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonSystem.cpp">
+      <Filter>Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameOver.cpp">
+      <Filter>Script\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonCollider.cpp">
+      <Filter>Script\Physics\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionChecker.cpp">
+      <Filter>Script\Physics\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Script\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigid.cpp">
+      <Filter>Script\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Collidable.cpp">
+      <Filter>Script\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Script\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneResult.cpp">
+      <Filter>Script\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Script\Actor\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Script\Actor\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Script\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAttackRange.cpp">
+      <Filter>Script\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGenerator.cpp">
+      <Filter>Script\Actor\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Script\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffekseerEffect.cpp">
+      <Filter>Script\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>Script\Music,Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Script\Music,Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Script\Music,Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageStore.cpp">
+      <Filter>Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>Script\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeUI.cpp">
+      <Filter>Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="KilledEnemyNum.cpp">
+      <Filter>Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Script\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="BonusUI.cpp">
+      <Filter>Script\Score</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Geometry.h">
+      <Filter>Script\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Script\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Script\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Script\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Script\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneController.h">
+      <Filter>Script\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FontLoader.h">
+      <Filter>Script\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Script\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTest.h">
+      <Filter>Script\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Script\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereActor.h">
+      <Filter>Script\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Script\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Script\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeLimitedValue.h">
+      <Filter>Script\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Script\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Script\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Script\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Script\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider3D.h">
+      <Filter>Script\Physics\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorController.h">
+      <Filter>Script\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>Script\Physics\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationModel.h">
+      <Filter>Script\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Bee.h">
+      <Filter>Script\Actor\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorKind.h">
+      <Filter>Script\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>Script\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonSystem.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonNoFocus.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameOver.h">
+      <Filter>Script\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonCollider.h">
+      <Filter>Script\Physics\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionChecker.h">
+      <Filter>Script\Physics\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Script\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigid.h">
+      <Filter>Script\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Collidable.h">
+      <Filter>Script\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Script\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneResult.h">
+      <Filter>Script\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Script\Actor\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Script\Actor\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Script\Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAttackRange.h">
+      <Filter>Script\Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGenerator.h">
+      <Filter>Script\Actor\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Script\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffekseerEffect.h">
+      <Filter>Script\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>Script\Music,Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Script\Music,Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Script\Music,Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageStore.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>Script\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeUI.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="KilledEnemyNum.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Script\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusUI.h">
+      <Filter>Script\Score</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
